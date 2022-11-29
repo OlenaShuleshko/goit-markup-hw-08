@@ -1,0 +1,26 @@
+//utils
+@import "./utils/variables";
+@import "./utils/plaseholders";
+
+//header
+@import "./components/page-header";
+@import "./components/page-header-nav";
+
+//main-page
+@import "./components/page-hero";
+@import "./components/page-hero-btn";
+
+@import "./components/features";
+@import "./components/work";
+@import "./components/team";
+@import "./components/client";
+
+//portfolio
+@import "./components/portf-filtr-btns";
+@import "./components/portf-cards";
+
+//footer
+@import "./components/footer-page";
+
+//modal window
+@import "./components/modal-window";

@@ -1,0 +1,32 @@
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 80px;
+	background-color: var(--background-color);
+	border-bottom: 1px solid rgba(236, 236, 236, 1);
+	z-index: var(--header-idx);
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	color: var(--logo-color-text);
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	align-items: center;
+	margin-right: 93px;
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
+.web-logo {
+	color: var(--acent-color);
+}
