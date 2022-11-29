@@ -1,6 +1,10 @@
 .work {
 	padding-top: 0;
 	padding-bottom: 94px;
+
+	@media (max-width: 1140px) {
+		display: none;
+	}
 }
 .work__list {
 	display: flex;

@@ -38,6 +38,16 @@
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+// .modal {
+// 	@media screen and (max-width: 1199px) {
+// 		width: 95%;
+// 		max-width: 450px;
+// 		height: 95%;
+// 		max-height: 609px;
+// 		overflow: scroll;
+// 	}
+// }
+
 .modal__popup {
 	position: absolute;
 	padding: 40px;

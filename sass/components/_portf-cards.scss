@@ -1,5 +1,10 @@
+// .portfolio__list {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	gap: 30px;
+// }
+
 .portfolio__list {
-	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
@@ -60,6 +65,7 @@
 	border-left: 1px solid var(--line-color);
 	border-right: 1px solid var(--line-color);
 	padding: 20px 24px;
+	margin-bottom: 30px;
 }
 
 .portfolio__title {
