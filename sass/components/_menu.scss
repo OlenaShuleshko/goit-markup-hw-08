@@ -95,11 +95,11 @@
 	color: #212121;
 	text-decoration: none;
 }
-.mobile__menu {
-}
+// .mobile__menu {
+// }
 
-.mobile__roster {
-}
+// .mobile__roster {
+// }
 
 .mobile__link {
 	font-family: "Roboto";
@@ -110,12 +110,12 @@
 
 	color: #212121;
 }
-.mobile__link.current {
+.mobile__link.current__link {
 	color: var(--acent-color);
 }
 
-.mobile__contact {
-}
+// .mobile__contact {
+// }
 
 .contact__phone {
 	font-family: "Roboto";
@@ -135,24 +135,24 @@
 	font-size: 24px;
 	line-height: 28px;
 	letter-spacing: 0.02em;
+
 	margin-bottom: 64px;
 
 	color: #757575;
 }
 
-.contact__link {
-}
+// .contact__link {
+// }
 
 .mobile__social {
 	display: flex;
 	gap: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 48px;
 }
 
-.social__item {
-}
+// .social__item {
+// }
 
-.social__link {
-}
+// .social__link {
+// }

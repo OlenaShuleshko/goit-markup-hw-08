@@ -34,8 +34,19 @@
 .nav {
 	display: flex;
 	align-items: center;
+
+	///phone
 	@media screen and (min-width: 480px) {
 		display: none;
+	}
+	///tablet
+	@media screen and (min-width: 768px) {
+	}
+
+	///decktop
+	@media screen and (min-width: 1200px) {
+		display: flex;
+		align-items: center;
 	}
 }
 
@@ -101,8 +112,21 @@
 	display: flex;
 	gap: 30px;
 	margin-left: auto;
+
+	///phone
 	@media screen and (min-width: 480px) {
 		display: none;
+	}
+	///tablet
+	@media screen and (min-width: 768px) {
+		display: block;
+	}
+
+	///decktop
+	@media screen and (min-width: 1200px) {
+		display: flex;
+		gap: 30px;
+		margin-left: auto;
 	}
 }
 
