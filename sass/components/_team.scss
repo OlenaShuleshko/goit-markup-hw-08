@@ -7,7 +7,7 @@
 	gap: 30px;
 
 	///phone
-	@media screen and (min-width: 0px) {
+	@media screen and (min-width: 480px) {
 		display: block;
 	}
 
@@ -15,7 +15,6 @@
 	@media screen and (min-width: 768px) {
 		display: flex;
 		flex-wrap: wrap;
-		flex-basis: 50%;
 	}
 }
 
@@ -26,15 +25,37 @@
 	border-radius: 0px 0px 4px 4px;
 
 	///phone
-	@media screen and (min-width: 0px) {
+	@media screen and (min-width: 480px) {
 		margin-bottom: 30px;
 		margin-left: auto;
 		margin-right: auto;
-
-		width: 450px;
-		height: 622px;
 	}
+
+	// 	margin-left: auto;
+	// 	margin-right: auto;
+	// 	width: 450px;
+	// 	height: auto;
+	// }
+
+	// ///tablet
+	// @media screen and (min-width: 768px) {
+	// 	width: 354px;
+	// 	height: auto;
+	// 	flex-basis: 50%;
+	// }
 }
+// .team__img {
+// 	///phone
+// 	@media screen and (min-width: 480px) {
+// 		width: 450px;
+// 		height: 460px;
+// 	}
+// 	///tablet
+// 	@media screen and (min-width: 768px) {
+// 		width: 354px;
+// 		height: 374px;
+// 	}
+// }
 .team__wrap {
 	padding: 30px 0;
 	text-align: center;
@@ -48,10 +69,6 @@
 
 	color: var(--main-text-color);
 	margin-bottom: 10px;
-
-	///phone
-	@media screen and (min-width: 0px) {
-	}
 }
 .team__text {
 	font-size: 16px;

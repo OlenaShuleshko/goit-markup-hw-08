@@ -3,7 +3,7 @@
 	gap: 30px;
 
 	//phone
-	@media screen and (min-width: 0px) {
+	@media screen and (min-width: 480px) {
 		display: block;
 	}
 
@@ -19,17 +19,17 @@
 	width: 270px;
 
 	///phone
-	@media screen and (min-width: 0px) {
+	@media screen and (min-width: 480px) {
 		width: 450px;
 	}
 
 	///tablet
-	@media screen and (min-width: 767px) {
+	@media screen and (min-width: 768px) {
 		width: 354px;
 	}
 
 	///decktop
-	@media screen and (min-width: 1199px) {
+	@media screen and (min-width: 1200px) {
 		width: 270px;
 	}
 }
@@ -52,7 +52,7 @@
 	font-size: 14px;
 
 	///phone
-	@media screen and (min-width: 0px) {
+	@media screen and (min-width: 480px) {
 		display: flex;
 		align-items: center;
 		justify-content: center;
