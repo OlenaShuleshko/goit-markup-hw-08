@@ -25,6 +25,10 @@ body {
 	font-size: 14px;
 	letter-spacing: 0.03em;
 	padding-top: 80px;
+
+	@media screen and (max-width: 767px) {
+		padding-top: 60px;
+	}
 }
 
 .section {
