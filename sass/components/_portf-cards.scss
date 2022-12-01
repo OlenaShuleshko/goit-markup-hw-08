@@ -12,6 +12,12 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+	///decktop
+	@media screen and (min-width: 1200px) {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
 }
 
 .portfolio__item {
