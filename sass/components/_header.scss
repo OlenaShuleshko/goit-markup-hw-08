@@ -7,13 +7,16 @@
 	background-color: var(--background-color);
 	border-bottom: 1px solid rgba(236, 236, 236, 1);
 	z-index: var(--header-idx);
+
+	@media screen and (max-width: 767px) {
+		height: 60px;
+	}
 }
 
 .header .container {
 	display: flex;
 	align-items: center;
 }
-
 .logo {
 	color: var(--logo-color-text);
 	font-family: "Raleway";
@@ -25,6 +28,11 @@
 	margin-right: 93px;
 	padding-top: 24px;
 	padding-bottom: 25px;
+
+	@media screen and (max-width: 767px) {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 }
 
 .web-logo {
@@ -32,17 +40,9 @@
 }
 
 .nav {
-	display: flex;
-	align-items: center;
-
-	///phone
-	@media screen and (min-width: 480px) {
-		display: none;
-	}
 	///tablet
-	@media screen and (min-width: 768px) {
-		display: flex;
-		align-items: center;
+	@media screen and (max-width: 767px) {
+		display: none;
 	}
 
 	///decktop
@@ -51,18 +51,15 @@
 		align-items: center;
 	}
 }
-
 .nav__list {
 	display: flex;
 	gap: 50px;
 }
-
 .nav__item {
 	position: relative;
 	padding-top: 32px;
 	padding-bottom: 32px;
 }
-
 .nav__link {
 	color: var(--main-text-color);
 	font-weight: 500;
@@ -70,18 +67,14 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	display: block;
-
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 	&:hover,
 	:focus {
 		color: var(--acent-color);
 	}
 }
-
 .nav__list.link {
 	color: var(--main-text-color);
-
 	&:hover {
 		color: var(--acent-color);
 	}
@@ -89,14 +82,11 @@
 		color: var(--main-text-color);
 	}
 }
-
 .nav__list.link.current {
 	color: var(--acent-color);
 }
-
 .current {
 	color: var(--acent-color);
-
 	&::after {
 		content: "";
 		position: absolute;
@@ -105,30 +95,27 @@
 		left: 0;
 		bottom: 0;
 		border-radius: 2px;
-
 		background: #2196f3;
 	}
 }
 
 .contact__list {
-	display: flex;
-	gap: 30px;
-	margin-left: auto;
-
-	///phone
-	@media screen and (min-width: 480px) {
+	///tablet
+	@media screen and (max-width: 767px) {
 		display: none;
 	}
-	///tablet
 	@media screen and (min-width: 768px) {
-		display: block;
+		margin-left: auto;
 	}
-
 	///decktop
 	@media screen and (min-width: 1200px) {
 		display: flex;
 		gap: 30px;
-		margin-left: auto;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+	.contact__item:not(:last-child) {
+		margin-bottom: 10px;
 	}
 }
 
@@ -139,15 +126,12 @@
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	display: flex;
-
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 	&:hover,
 	:focus {
 		color: var(--acent-color);
 	}
 }
-
 .contact__icon {
 	margin-right: 10px;
 	fill: currentColor;
