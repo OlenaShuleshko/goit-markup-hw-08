@@ -212,8 +212,7 @@ button {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__link:hover,
-.nav__link :focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--acent-color);
 }
 
@@ -281,8 +280,7 @@ button {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact__link:hover,
-.contact__link :focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--acent-color);
 }
 
@@ -548,8 +546,7 @@ button {
   -webkit-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
-.hero__btn:hover,
-.hero__btn :focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--acent-btn-cl);
 }
 
@@ -692,6 +689,10 @@ button {
   .team__item:not(:last-child) {
     margin-bottom: 30px;
   }
+}
+.team__img {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team__img:hover {
   background: url(4853.jpg);
@@ -861,8 +862,7 @@ button {
   -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
           transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.filter__btn:hover,
-.filter__btn :focus {
+.filter__btn:hover, .filter__btn:focus {
   color: var(--background-color);
   background-color: var(--acent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1038,8 +1038,7 @@ button {
   line-height: 1.73;
   color: var(--secondary-text-color);
 }
-.footer__adress:hover,
-.footer__adress :focus {
+.footer__adress:hover, .footer__adress:focus {
   color: var(--acent-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1053,8 +1052,7 @@ button {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__contacts:hover,
-.footer__contacts :focus {
+.footer__contacts:hover, .footer__contacts:focus {
   color: var(--acent-color);
 }
 @media screen and (max-width: 1199px) {
@@ -1116,8 +1114,7 @@ button {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-list__link:hover,
-.footer-list__link :focus {
+.footer-list__link:hover, .footer-list__link:focus {
   background-color: var(--acent-color);
   color: var(--background-color);
 }
@@ -1194,8 +1191,7 @@ button {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-suscribe-btn:hover,
-.footer-suscribe-btn :focus {
+.footer-suscribe-btn:hover, .footer-suscribe-btn:focus {
   background-color: var(--acent-btn-cl);
 }
 
@@ -1283,8 +1279,7 @@ button {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn:hover,
-.modal-close-btn :focus {
+.modal-close-btn:hover, .modal-close-btn:focus {
   fill: var(--acent-color);
 }
 
@@ -1484,7 +1479,6 @@ button {
   -webkit-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
 }
-.form__btn:hover,
-.form__btn :focus {
+.form__btn:hover, .form__btn:focus {
   background-color: var(--acent-btn-cl);
 }/*# sourceMappingURL=main.css.map */
