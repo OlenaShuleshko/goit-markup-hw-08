@@ -29,19 +29,6 @@
 	}
 }
 .team__img {
-	///phone
-	// @media screen and (min-width: 480px) {
-	// 	width: 450px;
-	// }
-	///tablet
-	// @media screen and (min-width: 768px) {
-	// 	width: 354px;
-	// }
-	///decktop
-	// @media screen and (min-width: 1200px) {
-	// 	width: 270px;
-	// 	height: 260px;
-
 	&:hover {
 		background: url(4853.jpg);
 		border: 1px solid #000000;
@@ -90,7 +77,7 @@
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	&:hover,
-	:focus {
+	&:focus {
 		background-color: var(--acent-color);
 		color: var(--background-color);
 	}
