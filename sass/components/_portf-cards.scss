@@ -81,12 +81,20 @@
 }
 
 .portfolio__wrap {
-	border-bottom: 1px solid var(--line-color);
-	border-left: 1px solid var(--line-color);
-	border-right: 1px solid var(--line-color);
+	border: 1px solid var(--line-color);
+	border-top: none;
 	padding: 20px 24px;
+
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		flex-grow: 1;
+	}
+
+	@media screen and (min-width: 768px) {
+		padding: 20px 20px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		padding: 20px 24px;
 	}
 }
 
