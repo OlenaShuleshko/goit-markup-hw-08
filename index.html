@@ -155,14 +155,29 @@
 					<h2 class="section-title">Наша команда</h2>
 					<ul class="team__roster list">
 						<li class="team__item">
-							<img
-								class="team__img"
-								srcset=""
-								src="./images/team/img.jpg"
-								alt="Ігор Дем'яненко"
-								width="270"
-								height="260"
-							/>
+							<picture class="team__img">
+								<source
+									srcset="./images/team/demjanenko1200.jpg 1x, ./images/team/demjanenko1200@2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+
+								<source
+									srcset="./images/team/demjanenko768.jpg 1x, ./images/team/demjanenko768@2x.jpg 2x"
+									media="(min-width: 768px)"
+								/>
+
+								<source
+									srcset="./images/team/demjanenko480.jpg 1x, ./images/team/demjanenko480@2x.jpg 2x"
+									media="(min-width: 480px)"
+								/>
+								<img
+									src="./images/team/demjanenko480.jpg"
+									class="team-img"
+									alt="Игорь Демьяненко Product Designer"
+									loading="lazy"
+								/>
+							</picture>
+
 							<div class="team__wrap">
 								<h3 class="team__member">Ігор Дем'яненко</h3>
 								<p lang="en" class="team__text">Product Designer</p>
@@ -200,7 +215,29 @@
 						</li>
 
 						<li class="team__item">
-							<img class="team__img" src="./images/team/frontend.jpg" alt="Ольга Рєпіна" width="270" height="260" />
+							<picture class="team__img">
+								<source
+									srcset="./images/team/repina1200.jpg 1x, ./images/team/repina1200@2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+
+								<source
+									srcset="./images/team/repina768.jpg 1x, ./images/team/repina768@2x.jpg 2x"
+									media="(min-width: 768px)"
+								/>
+
+								<source
+									srcset="./images/team/repina480.jpg 1x, ./images/team/repina480@2x.jpg 2x"
+									media="(min-width: 480px)"
+								/>
+								<img
+									src="./images/team/repina480.jpg"
+									class="team-img"
+									alt="Ольга Репіна Frontend Developer"
+									loading="lazy"
+								/>
+							</picture>
+
 							<div class="team__wrap">
 								<h3 class="team__member">Ольга Рєпіна</h3>
 								<p lang="en" class="team__text">Frontend Developer</p>
@@ -238,7 +275,28 @@
 						</li>
 
 						<li class="team__item">
-							<img class="team__img" src="./images/team/marketing.jpg" alt="marketing" width="270" height="260" />
+							<picture class="team__img">
+								<source
+									srcset="./images/team/tarasov1200.jpg 1x, ./images/team/tarasov1200@2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+
+								<source
+									srcset="./images/team/tarasov768.jpg 1x, ./images/team/tarasov768@2x.jpg 2x"
+									media="(min-width: 768px)"
+								/>
+
+								<source
+									srcset="./images/team/tarasov480.jpg 1x, ./images/team/tarasov480@2x.jpg 2x"
+									media="(min-width: 480px)"
+								/>
+								<img
+									src="./images/team/tarasov480.jpg"
+									class="team-img"
+									alt="Микола Тарасов Marketing"
+									loading="lazy"
+								/>
+							</picture>
 							<div class="team__wrap">
 								<h3 class="team__member">Микола Тарасов</h3>
 								<p lang="en" class="team__text">Marketing</p>
@@ -276,7 +334,28 @@
 						</li>
 
 						<li class="team__item">
-							<img class="team__img" src="./images/team/ui.jpg" alt="UI designer" width="270" height="260" />
+							<picture class="team__img">
+								<source
+									srcset="./images/team/yermakov1200.jpg 1x, ./images/team/yermakov1200@2x.jpg 2x"
+									media="(min-width: 1200px)"
+								/>
+
+								<source
+									srcset="./images/team/yermakov768.jpg 1x, ./images/team/yermakov768@2x.jpg 2x"
+									media="(min-width: 768px)"
+								/>
+
+								<source
+									srcset="./images/team/yermakov480.jpg 1x, ./images/team/yermakov480@2x.jpg 2x"
+									media="(min-width: 480px)"
+								/>
+								<img
+									src="./images/team/yermakov480.jpg"
+									class="team-img"
+									alt="Михайло Єрмаков UI Designer"
+									loading="lazy"
+								/>
+							</picture>
 							<div class="team__wrap">
 								<h3 class="team__member">Михайло Єрмаков</h3>
 								<p lang="en" class="team__text">UI Designer</p>
