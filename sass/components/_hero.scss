@@ -41,14 +41,14 @@
 		padding-bottom: 200px;
 		height: 600px;
 
-		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/hero1200.jpg);
+		background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero1200.jpg);
 
 		@media screen and (min-device-pixel-ratio: 2),
 			screen and (min-resolution: 192dpi),
 			screen and (min-resolution: 2dppx) {
 			.hero-section {
 				background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-					url(../../images/hero/hero1200@2x.jpg);
+					url(../images/hero/hero1200@2x.jpg);
 			}
 		}
 	}
